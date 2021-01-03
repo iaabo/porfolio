@@ -294,3 +294,46 @@ img {
 .skills__img img {
   border-radius: 0.5rem;
 }
+
+/* Projects */
+
+.portfolio {
+  background-color: var(--white-color);
+}
+
+.portfolio__container {
+  justify-items: center;
+  row-gap: 2rem;
+}
+
+.portfolio__img {
+  position: relative;
+  overflow: hidden;
+}
+
+.portfolio__img img {
+  border-radius: 0.5rem;
+}
+
+.portfolio__link {
+  position: absolute;
+  bottom: -100%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 0.5rem;
+  cursor: pointer;
+  backdrop-filter: blur(10px);
+  transition: 0.3s;
+}
+
+.portfolio__img:hover .portfolio__link {
+  bottom: 0;
+}
+
+.portfolio__link-name {
+  color: var(--dark-color);
+}
