@@ -23,6 +23,8 @@ function linkAction() {
 }
 navLink.forEach((n) => n.addEventListener("click", linkAction));
 
+
+
 /* Scroll Sections*/
 
 const sections = document.querySelectorAll('section[id]');
@@ -48,3 +50,4 @@ function scrollActive() {
     }
   });
 }
+
