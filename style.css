@@ -259,6 +259,7 @@ img {
 .about__social-icon {
   font-size: 1.4rem;
   margin: 0 var(--mb-1);
+  color: var(--dark-color);
 }
 
 .about__social-icon:hover {
