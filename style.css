@@ -263,7 +263,7 @@ img {
 }
 
 .about__social-icon:hover {
-  color: var(--text-color);
+  color: var(--first-color);
 }
 
 /* Skills */
@@ -324,7 +324,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(104, 103, 103, 0.11);
+  background-color: rgba(255, 255, 255, 0.767);
   border-radius: 0.5rem;
   cursor: pointer;
   backdrop-filter: blur(100px);
@@ -339,7 +339,7 @@ img {
   color: var(--dark-color);
 }
 .portfolio__link-name:hover {
-  color: var(--white-color);
+  color: var(--first-color);
 }
 
 /* Footer */
